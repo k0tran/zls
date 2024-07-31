@@ -1,0 +1,4 @@
+spec: .gear/zls.spec
+tar:  @version@:.
+diff: @version@:. . exclude=.gear/**
+
