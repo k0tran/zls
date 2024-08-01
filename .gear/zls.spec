@@ -25,10 +25,8 @@ BuildRequires: zig >= 0.12.0, zig < 0.13.0
 %install
 %zig_install
 
-# No check because for some reason on my machine it does not work
-# Although it maybe my machine's fault
-# check
-# zig_test
+%check
+%zig_test
 
 %files
 %_bindir/zls
